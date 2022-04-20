@@ -1,0 +1,23 @@
+{
+    "alias": "template",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Template\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "global_fields": [],
+    "vendor_fields":[{
+        "separator":"Themes",
+        "title": "Select Theme",
+        "key": "template_theme",
+        "ftype": "select",
+        "type": "text",
+        "value":"",
+        "data": ["ThemeSpot","ThemeElegant","Themegrocery"]
+    }]
+}
